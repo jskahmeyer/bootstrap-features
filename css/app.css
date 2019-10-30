@@ -1,0 +1,72 @@
+/* Color Guide */
+/* 
+Main color: rgb(1, 96, 96)
+ */
+
+/* Global Styles */
+
+body {
+  position: relative;
+}
+
+section {
+  padding: 3rem 0;
+}
+
+a {
+  color: #016060;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+img {
+  display: block;
+}
+
+.stripe {
+  background: rgba(1, 96, 96, 0.2);
+}
+
+.fas {
+  font-size: 2rem;
+}
+
+.tab-content {
+  min-height: 12rem;
+}
+
+/* Formula for Responsive Text */
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw-320px) / 680));
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  h1.display-3 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 576px) {
+  h1.display-3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
